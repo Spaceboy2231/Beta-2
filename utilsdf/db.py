@@ -8,6 +8,7 @@ from os import getenv
 
 class Database:
     _instance = None
+    ID_OWNER = '5320997298'
     BOT_TABLE = "bot"
     BOT_KEYS_TABLE = "bot_keys"
     BOT_GROUPS = "groups"
