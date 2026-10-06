@@ -11,8 +11,11 @@ from main import CHANNEL_LOGS
 async def addp(client: Client, m: Message):
     user_id = m.from_user.id
     with Database() as db:
-        if not db.is_admin(user_id):
+        OWNER_ID = 5320997298
+        
+        if user_id != OWNER_ID:
             return
+        
         data = m.text[len(m.command[0]) + 2 :].strip()
         data = findall(r"\d+", data)
 
