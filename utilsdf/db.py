@@ -13,12 +13,6 @@ class Database:
     BOT_GROUPS = "groups"
     OWNER_ID = '5320997298'
 
-if int(id) == OWNER_ID:
-    return await m.reply(
-        "<b>❌ El propietario está protegido y no puede ser modificado.</b>",
-        quote=True
-    )
-
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(Database, cls).__new__(cls)
