@@ -23,7 +23,7 @@ Languages = {
 times = {}
 users_info = {}
 buy_button = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("Buy Now", url="https://t.me/Was_B3")]]
+    [[InlineKeyboardButton("Buy Now", url="tg://user?id=5320997298")]]
 )
 db_bins = sqlite3.connect("assets/bins.db")
 cursor_bins = db_bins.cursor()
