@@ -301,7 +301,7 @@ class Database:
         return expiration_time
 
     def is_authorized(self, user_id: int, chat_id: int) -> bool:
-    return True
+        return True
 
     def remove_expireds_users(self) -> None:
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
