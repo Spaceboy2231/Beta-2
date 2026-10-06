@@ -14,7 +14,7 @@ buttons_cmds = InlineKeyboardMarkup(
             InlineKeyboardButton("𝙂𝙖𝙩𝙚𝙨 ♻️", "gates"),
             InlineKeyboardButton("𝙏𝙤𝙤𝙡𝙨 🛠", "tools"),
         ],
-        [InlineKeyboardButton("𝘾𝙝𝙖𝙣𝙣𝙚𝙡 💫", url="https://t.me/Was_B3")],
+        [InlineKeyboardButton("𝘾𝙝𝙖𝙣𝙣𝙚𝙡 💫", url="https://t.me/didierJC")],
         [exit_button],
     ]
 )
