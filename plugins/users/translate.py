@@ -15,6 +15,7 @@ Portugues -» <code>pt</code> 🇧🇷
 Chinesse -» <code>ch</code> 🇨🇳
 Russian -» <code>ru</code> 🇷🇺
 German -» <code>de</code> 🇩🇪
+Colombia -» <code>co</code> 🇨🇴
 Japanesse -» <code>ja</code> 🇯🇵</b>"""
 
 
