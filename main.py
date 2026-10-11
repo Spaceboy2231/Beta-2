@@ -1,4 +1,4 @@
-import logging
+#import logging
 from os import getenv
 from huepy import bad
 from pyromod import Client
